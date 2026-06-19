@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "superhuman_operations": {
+      "type": "http",
+      "url": "https://superhuman.callourstudio.com/api/mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SUPERHUMAN_MCP_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ops-agent",
+  "displayName": "Ops Agent",
+  "version": "0.1.0",
+  "description": "Connects Claude to the Superhuman Operations MCP (tasks, projects, workload, documents) and adds the start-task / post-comment task skills.",
+  "author": {
+    "name": "Callour Studio"
+  },
+  "repository": "https://github.com/panggihcallour/superhuman-claude-plugin",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

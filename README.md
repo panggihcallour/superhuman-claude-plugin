@@ -62,3 +62,16 @@ the task's title and status.
 
 For the **Codex** version of this plugin, see
 [superhuman-codex-plugin](https://github.com/panggihcallour/superhuman-codex-plugin).
+
+## Notes & troubleshooting
+
+- **No custom icon.** Claude's plugin manifest has no icon field, so the plugin uses Claude's
+  default icon. Not changeable from the plugin side.
+- **Display name "Ops Agent"** shows in the `/plugin` picker on Claude v2.1.143+; older versions
+  fall back to the id `ops-agent`.
+- **Updates are NOT automatic.** Run `/plugin marketplace update callour` to pull a new version.
+- **Token on Claude Desktop:** a GUI app doesn't inherit your shell env — use
+  `launchctl setenv SUPERHUMAN_MCP_TOKEN <token>` then restart Claude. From Claude Code (terminal),
+  `export SUPERHUMAN_MCP_TOKEN=...` before launching works.
+- **MCP not connecting?** Restart Claude after setting the token; MCP servers load at startup.
+  Use an interactive chat.

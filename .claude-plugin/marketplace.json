@@ -5,11 +5,11 @@
   },
   "plugins": [
     {
-      "name": "ops-agent",
-      "source": "./plugins/ops-agent",
-      "displayName": "Ops Agent",
-      "description": "Connects Claude to the Superhuman Operations MCP + start-task/post-comment task skills.",
-      "version": "0.1.0",
+      "name": "design-agent",
+      "source": "./plugins/design-agent",
+      "displayName": "Design Agent",
+      "description": "Design Agent — Operations MCP + senior UX design skills (start-task, post-comment, information-architecture, wireframe).",
+      "version": "0.2.0",
       "author": { "name": "Callour Studio" }
     }
   ]

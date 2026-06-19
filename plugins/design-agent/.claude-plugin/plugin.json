@@ -1,0 +1,12 @@
+{
+  "name": "design-agent",
+  "displayName": "Design Agent",
+  "version": "0.2.0",
+  "description": "Design Agent for Callour Studio. Connects Claude to the Superhuman Operations MCP and runs the task workflow (start-task, post-comment) plus senior UX design production (information-architecture, wireframe). Acts as a Senior Principal UX Designer.",
+  "author": {
+    "name": "Callour Studio"
+  },
+  "repository": "https://github.com/panggihcallour/superhuman-claude-plugin",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

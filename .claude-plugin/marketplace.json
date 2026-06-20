@@ -8,8 +8,8 @@
       "name": "design-agent",
       "source": "./plugins/design-agent",
       "displayName": "Design Agent",
-      "description": "Design Agent — Operations MCP + senior UX design skills (start-task, post-comment, information-architecture, wireframe).",
-      "version": "0.2.0",
+      "description": "Design Agent — Operations MCP + an end-to-end senior UX design process (19 skills): discovery, IA & sitemap, content, wireframes, design system, visual design, prototype, Figma build, and QA.",
+      "version": "0.3.0",
       "author": { "name": "Callour Studio" }
     }
   ]

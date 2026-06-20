@@ -4,12 +4,18 @@ A **Design Agent** plugin for [Callour Studio](https://callourstudio.com). It co
 the **Superhuman Operations** MCP (tasks, projects, workload, documents) and adds skills to run a
 task and produce senior UX design deliverables — acting as a **Senior Principal UX Designer**.
 
-It bundles:
-- the `superhuman_operations` MCP server (auto-registered on install)
-- `start-task` — read a task, flip it to in-progress, give an active kickoff
-- `information-architecture` — content inventory, sitemap, navigation, user flows
-- `wireframe` — low-fi grayscale wireframes of the key screens, annotated with states
-- `post-comment` — summarise the work and post the deliverable back to the task
+It bundles the `superhuman_operations` MCP server (auto-registered on install) and a **19-skill,
+end-to-end design process** you invoke as slash commands:
+
+- **Start / document** — `start-task` (read a task, flip it to in-progress, frame the brief, kick off) · `post-comment` (summarise + post the deliverable back to the task)
+- **Discover & define** — `competitive-audit` (web-research teardown) · `explore-solutions` (diverge into distinct directions + alternative flows)
+- **Structure** — `information-architecture` · `sitemap`
+- **Content** — `ux-writing`
+- **Produce** — `wireframe` · `design-tokens` · `component-spec` · `visual-design` · `prototype` · `figma-build` (build it in Figma via the Figma MCP)
+- **Document** — `design-spec` (convert a design into a `design.md` handoff)
+- **QA gates** — `design-critique` · `wcag-check` · `edge-cases` · `figma-audit` · `design-parity`
+
+Every design skill acts as a **Senior Principal UX Designer**.
 
 > **Operational surface only.** This connects to the Operations MCP — tasks, projects, workload,
 > documents. It exposes **no finance, sales, or people data / money** (the token is

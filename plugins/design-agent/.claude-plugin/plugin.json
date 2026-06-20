@@ -1,7 +1,7 @@
 {
   "name": "design-agent",
   "displayName": "Design Agent",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Design Agent for Callour Studio. Connects Claude to the Superhuman Operations MCP and runs an end-to-end senior UX design process on tasks — discovery, IA & sitemap, content, wireframes, design system, visual design, prototype, Figma build, and QA — from start-task to post-comment. Acts as a Senior Principal UX Designer.",
   "author": {
     "name": "Callour Studio"

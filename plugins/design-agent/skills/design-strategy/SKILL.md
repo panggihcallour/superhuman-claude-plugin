@@ -35,4 +35,4 @@ The brief (`get_task` + `list_agent_queue` / `read_project_resource`) — the bu
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Vision · Users & their world · Design principles · Strategic bets (+ non-goals) · Success metrics · Risks & assumptions · Ladder to business · Open questions. Show it in chat, iterate, then feed it into `/explore-solutions` or hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, clean, grayscale): Vision · Users & their world · Design principles · Strategic bets (+ non-goals) · Success metrics · Risks & assumptions · Ladder to business · Open questions. Show it in chat, iterate, then feed it into `/explore-solutions` or hand to `/create-report`.

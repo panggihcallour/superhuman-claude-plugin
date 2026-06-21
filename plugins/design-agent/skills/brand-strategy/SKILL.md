@@ -35,4 +35,4 @@ The brief (`get_task` + `read_project_resource` for any existing brand/business 
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Problem & audience · Positioning statement · Brand pillars · Personality & archetype · Value proposition + tagline territory · Competitive whitespace · Open questions. Show it in chat, iterate, then feed into `/moodboard` + `/logo-design`, or hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, clean, grayscale): Problem & audience · Positioning statement · Brand pillars · Personality & archetype · Value proposition + tagline territory · Competitive whitespace · Open questions. Show it in chat, iterate, then feed into `/moodboard` + `/logo-design`, or hand to `/create-report`.

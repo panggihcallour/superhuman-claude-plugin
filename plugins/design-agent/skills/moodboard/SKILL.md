@@ -33,4 +33,4 @@ The brand strategy (`/brand-strategy`) — personality, archetype, audience. Any
 
 ## Output
 
-A self-contained **HTML document** (inline CSS) rendering the direction(s) as a real moodboard — color swatches, type specimens, imagery/texture notes, composition examples — with rationale + do/don't. Show it in chat, iterate, then feed into `/logo-design` + `/brand-identity`, or hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS) rendering the direction(s) as a real moodboard — color swatches, type specimens, imagery/texture notes, composition examples — with rationale + do/don't. Show it in chat, iterate, then feed into `/logo-design` + `/brand-identity`, or hand to `/create-report`.

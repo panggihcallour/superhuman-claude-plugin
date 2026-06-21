@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Information Architecture</title>
+<style>
+:root{--ink:#18181b;--mut:#71717a;--bd:#e4e4e7;--bg:#fafafa;--ac:#3f3f46}
+body{font:14px/1.55 ui-sans-serif,system-ui,-apple-system,sans-serif;color:var(--ink);max-width:860px;margin:0 auto;padding:40px 32px}
+h1{font-size:23px;letter-spacing:-.02em;margin:0 0 3px}
+.meta{color:var(--mut);font-size:13px;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--bd)}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin:26px 0 8px}
+.card{border:1px solid var(--bd);border-radius:10px;padding:13px 15px;margin:9px 0;background:var(--bg)}
+.note{font-size:12.5px;color:var(--mut);font-style:italic}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--bd);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}
+.oq{border:1px dashed var(--bd);border-radius:10px;padding:11px 15px;margin-top:22px}
+.ph{color:#a1a1aa}
+code{font:12px ui-monospace,Menlo,monospace;background:var(--bg);padding:1px 5px;border-radius:4px}
+</style></head>
+<body>
+<!-- TEMPLATE — copy, fill every .ph, delete comments. (Page hierarchy / sitemap is the separate /sitemap deliverable.) -->
+<h1>Information Architecture — <span class="ph">[Product / feature]</span></h1>
+<div class="meta">Design Agent · Senior Principal UX Designer · <span class="ph">[date]</span></div>
+
+<h2>Objective &amp; assumptions</h2>
+<div class="card"><b>Product in one line:</b> <span class="ph">[…]</span><br><b>Primary users + top jobs:</b> <span class="ph">[…]</span><br><b>Assumptions:</b> <span class="ph">[stated explicitly]</span></div>
+
+<h2>Content inventory</h2>
+<table><thead><tr><th>Content / function</th><th>Group</th><th>Notes</th></tr></thead><tbody>
+<tr><td class="ph">[item]</td><td class="ph">[group]</td><td class="ph">[…]</td></tr>
+</tbody></table>
+
+<h2>Navigation model</h2>
+<table><thead><tr><th>Level</th><th>What it holds</th><th>Persistent?</th></tr></thead><tbody>
+<tr><td>Global</td><td class="ph">[…]</td><td class="ph">[yes/no]</td></tr>
+<tr><td>Local / contextual / utility</td><td class="ph">[…]</td><td class="ph">[…]</td></tr>
+</tbody></table>
+<p class="note">How users orient ("where am I") and move ("where next").</p>
+
+<h2>Labeling notes</h2>
+<p class="ph">[Names in the user's language; flag ambiguous/competing labels + categorisation rules.]</p>
+
+<h2>Key user flows (3–5)</h2>
+<div class="card"><b><span class="ph">[Flow name]</span>:</b> <span class="ph">entry → step → step → success</span> <span class="ph">(decision points, error/empty branches, cross-links)</span></div>
+
+<h2>Content model <span class="note">(only for structured content / CMS)</span></h2>
+<p class="ph">[Content types · key attributes · relationships — or remove this section.]</p>
+
+<div class="oq"><h2 style="margin-top:0">Open questions</h2>
+<ol><li class="ph">[Decision needed from founder/client]</li></ol></div>
+</body></html>

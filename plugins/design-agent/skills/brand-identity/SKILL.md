@@ -34,4 +34,4 @@ The logo (`/logo-design`), art direction (`/moodboard`), and strategy (`/brand-s
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, real swatches/specimens) of the full system — color (roles + values), type (scale + specimens), logo system, imagery rules, motifs + grid — plus the applied samples, **and** a copy-pasteable token/JSON block of the core values. Show it in chat, iterate, then feed into `/marketing-assets` + `/brand-guidelines`, or hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, real swatches/specimens) of the full system — color (roles + values), type (scale + specimens), logo system, imagery rules, motifs + grid — plus the applied samples, **and** a copy-pasteable token/JSON block of the core values. Show it in chat, iterate, then feed into `/marketing-assets` + `/brand-guidelines`, or hand to `/create-report`.

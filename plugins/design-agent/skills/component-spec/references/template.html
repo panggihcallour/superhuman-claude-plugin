@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Component Spec</title>
+<style>
+:root{--ink:#18181b;--mut:#71717a;--bd:#e4e4e7;--bg:#fafafa;--ac:#3f3f46}
+body{font:14px/1.55 ui-sans-serif,system-ui,-apple-system,sans-serif;color:var(--ink);max-width:860px;margin:0 auto;padding:40px 32px}
+h1{font-size:23px;letter-spacing:-.02em;margin:0 0 3px}
+.meta{color:var(--mut);font-size:13px;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--bd)}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin:26px 0 8px}
+.card{border:1px solid var(--bd);border-radius:10px;padding:13px 15px;margin:9px 0;background:var(--bg)}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--bd);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}
+code{font:12px ui-monospace,Menlo,monospace;background:var(--bg);padding:1px 5px;border-radius:4px}
+.do{color:#3f3f46}.dont{color:#71717a}
+.note{font-size:12.5px;color:var(--mut);font-style:italic}
+.oq{border:1px dashed var(--bd);border-radius:10px;padding:11px 15px;margin-top:22px}
+.ph{color:#a1a1aa}
+.specimen{border:1px dashed var(--bd);border-radius:8px;padding:16px;text-align:center;color:#a1a1aa;margin:8px 0}
+</style></head>
+<body>
+<!-- TEMPLATE — every dimension cites a token from /design-tokens. Render live specimens where you can. Fill all .ph. -->
+<h1>Component — <span class="ph">[Name]</span></h1>
+<div class="meta">Design Agent · Design-systems lead · <span class="ph">[date]</span></div>
+
+<h2>Purpose &amp; when to use</h2>
+<div class="card"><b>Solves:</b> <span class="ph">[problem]</span><br><b>Don't use when:</b> <span class="ph">[reach for X instead]</span></div>
+
+<h2>Specimens</h2>
+<div class="specimen ph">[Render the variants × states here]</div>
+
+<h2>Anatomy</h2>
+<table><thead><tr><th>Part</th><th>Required?</th><th>Token(s)</th></tr></thead><tbody>
+<tr><td class="ph">[container / label / icon …]</td><td class="ph">[req/opt]</td><td class="ph"><code>[space/color/radius/type token]</code></td></tr>
+</tbody></table>
+
+<h2>Variant matrix</h2>
+<table><thead><tr><th>Dimension</th><th>Options</th><th>Not allowed</th></tr></thead><tbody>
+<tr><td class="ph">[hierarchy / tone / size]</td><td class="ph">[primary / secondary / ghost …]</td><td class="ph">[invalid combos]</td></tr>
+</tbody></table>
+
+<h2>States</h2>
+<table><thead><tr><th>State</th><th>Behaviour / token</th></tr></thead><tbody>
+<tr><td>default · hover · focus-visible · active · disabled · loading · error · selected · read-only</td><td class="ph">[per state]</td></tr>
+</tbody></table>
+<p class="note">None optional — missing states are missing design.</p>
+
+<h2>Behaviour &amp; content rules</h2>
+<p class="ph">[Overflow/truncation · min/max width · label length · responsive · what content is allowed.]</p>
+
+<h2>Accessibility</h2>
+<p class="ph">[Role/semantics · keyboard + focus order · label/aria · target size · contrast · reduced-motion.]</p>
+
+<h2>Do / Don't</h2>
+<div class="card"><span class="do"><b>Do</b></span> <span class="ph">[rule]</span><br><span class="dont"><b>Don't</b></span> <span class="ph">[predicted misuse]</span></div>
+
+<div class="oq"><h2 style="margin-top:0">Open questions</h2>
+<ol><li class="ph">[Variant/behaviour needing a decision]</li></ol></div>
+</body></html>

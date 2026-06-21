@@ -36,4 +36,4 @@ Design WORK — runs **between `/start-task`** and **`/create-report`**, feeding
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale, with real swatches/specimens) of the full token set, two-tier, with the naming convention — **and** a copy-paceable JSON block of the tokens. If Figma was used, note what was read or written. Show it in chat, iterate, then hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, clean, grayscale, with real swatches/specimens) of the full token set, two-tier, with the naming convention — **and** a copy-paceable JSON block of the tokens. If Figma was used, note what was read or written. Show it in chat, iterate, then hand to `/create-report`.

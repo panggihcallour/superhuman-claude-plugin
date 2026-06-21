@@ -38,4 +38,4 @@ The brief + the finished design (`/visual-design` and/or `/prototype`), the toke
 
 ## Output
 
-A clean, structured **`design.md`** (Markdown) with the sections above — copy-paste-ready for a repo or ticket. Show it in chat, iterate, then hand to `/create-report`.
+**Start from the scaffold in `references/design-md-template.md`** — copy it and fill in every section. It produces a clean, structured **`design.md`** (Markdown) with the sections above — copy-paste-ready for a repo or ticket. Show it in chat, iterate, then hand to `/create-report`.

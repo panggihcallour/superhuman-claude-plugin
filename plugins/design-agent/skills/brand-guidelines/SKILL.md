@@ -36,4 +36,4 @@ The full identity system (`/brand-identity`), logo (`/logo-design`), art directi
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, rendered specimens + do/don't) structured as a brand book: Essence · Logo (+ do/don't) · Color · Typography · Imagery · Layout & motifs · Voice · Applications. Show it in chat, iterate, then hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, rendered specimens + do/don't) structured as a brand book: Essence · Logo (+ do/don't) · Color · Typography · Imagery · Layout & motifs · Voice · Applications. Show it in chat, iterate, then hand to `/create-report`.

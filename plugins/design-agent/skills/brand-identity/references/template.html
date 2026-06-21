@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Brand Identity System</title>
+<style>
+:root{--ink:#18181b;--mut:#71717a;--bd:#e4e4e7;--bg:#fafafa;--ac:#3f3f46}
+body{font:14px/1.55 ui-sans-serif,system-ui,-apple-system,sans-serif;color:var(--ink);max-width:860px;margin:0 auto;padding:40px 32px}
+h1{font-size:23px;letter-spacing:-.02em;margin:0 0 3px}
+.meta{color:var(--mut);font-size:13px;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--bd)}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin:26px 0 8px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--bd);vertical-align:middle}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}
+.note{font-size:12.5px;color:var(--mut);font-style:italic}
+.sw{display:inline-block;width:40px;height:24px;border-radius:5px;border:1px solid var(--bd);vertical-align:middle;margin-right:8px}
+pre{background:#18181b;color:#e4e4e7;font:12px ui-monospace,Menlo,monospace;padding:14px 16px;border-radius:10px;overflow:auto}
+.tile{border:1px dashed var(--bd);border-radius:8px;min-height:90px;display:flex;align-items:center;justify-content:center;color:#a1a1aa;margin:8px 0}
+.oq{border:1px dashed var(--bd);border-radius:10px;padding:11px 15px;margin-top:22px}
+.ph{color:#a1a1aa}
+</style></head>
+<body>
+<!-- TEMPLATE — a brand isn't a logo, it's a system: recognisable everywhere, flexible to each touchpoint. Fill all .ph. -->
+<h1>Brand Identity System — <span class="ph">[Brand]</span></h1>
+<div class="meta">Graphic Agent · Design-systems lead · <span class="ph">[date]</span></div>
+
+<h2>Color</h2>
+<table><thead><tr><th>Swatch</th><th>Name / role</th><th>Value (HEX/RGB)</th><th>Contrast</th></tr></thead><tbody>
+<tr><td><span class="sw" style="background:#18181b"></span></td><td class="ph">[primary / secondary / neutral / accent]</td><td class="ph">[#…]</td><td class="ph">[AA?]</td></tr>
+</tbody></table>
+
+<h2>Typography</h2>
+<table><thead><tr><th>Role</th><th>Family</th><th>Size / weight</th></tr></thead><tbody>
+<tr><td class="ph">[display / heading / body / caption]</td><td class="ph">[typeface]</td><td class="ph">[…]</td></tr>
+</tbody></table>
+<p class="note ph">Pairing rationale: […]</p>
+
+<h2>Logo system</h2>
+<p class="ph">[Lockups, clear space, sizing, color treatments, placement — or pointer to /logo-design.]</p>
+
+<h2>Imagery &amp; illustration</h2>
+<p class="ph">[The photography/illustration style + rules that make any image feel on-brand.]</p>
+
+<h2>Graphic motifs &amp; grid</h2>
+<p class="ph">[Signature shapes/patterns/iconography + layout grid that ties applications together.]</p>
+
+<h2>Applied samples</h2>
+<div class="tile ph">[Render the system on 2–3 touchpoints — card, social, header — so it reads as a system.]</div>
+
+<h2>Core values (JSON — copy-paste)</h2>
+<pre class="ph">{ "color": { "primary": "#…" }, "type": { "heading": "…", "body": "…" } }</pre>
+
+<div class="oq"><h2 style="margin-top:0">Open questions</h2>
+<ol><li class="ph">[System call needing sign-off]</li></ol></div>
+</body></html>

@@ -34,4 +34,4 @@ The brand strategy (personality, archetype, positioning) + the art direction (`/
 
 ## Output
 
-A self-contained **HTML document** (inline CSS/SVG) rendering the concept(s), the chosen mark with construction notes, the lockup system, and the test results (b/w, small, reversed). If built in Figma, note the file/frames. Show it in chat, iterate, then feed into `/brand-identity`, or hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS/SVG) rendering the concept(s), the chosen mark with construction notes, the lockup system, and the test results (b/w, small, reversed). If built in Figma, note the file/frames. Show it in chat, iterate, then feed into `/brand-identity`, or hand to `/create-report`.

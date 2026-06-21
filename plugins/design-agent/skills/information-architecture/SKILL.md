@@ -37,4 +37,4 @@ Read the active task's brief and context first: `get_task`, plus `list_agent_que
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale) with sections: Objective & assumptions · Content inventory · Navigation model · Labeling notes · Key user flows · Content model (if any) · Open questions. (For the page hierarchy, see `/sitemap`.) Show it in chat, iterate, then hand to `/create-report`.
+**Start from the scaffold in `references/template.html`** — copy it and fill in every placeholder (keep the house style). It produces a self-contained **HTML document** (inline CSS, clean, grayscale) with sections: Objective & assumptions · Content inventory · Navigation model · Labeling notes · Key user flows · Content model (if any) · Open questions. (For the page hierarchy, see `/sitemap`.) Show it in chat, iterate, then hand to `/create-report`.

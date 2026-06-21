@@ -45,18 +45,29 @@ Then set your token (below) and restart Claude. Updates later: `/plugin marketpl
 
 ## Set your token
 
-The plugin authenticates with `Authorization: Bearer ${SUPERHUMAN_MCP_TOKEN}`, so that
-environment variable must be visible to Claude. **Get the token from the founder first.**
+The plugin authenticates with `Authorization: Bearer ${SUPERHUMAN_MCP_TOKEN}`, so that env var
+must be visible to Claude. **Get the token from the founder first** (they mint it at `/account/mcp`).
 
-On macOS, a GUI app (Claude Desktop) doesn't inherit your shell environment, so set it for the
-login session and restart Claude:
+**Claude Code (terminal).** Open your shell profile in a text editor:
+
+```
+open -e ~/.zshrc
+```
+
+TextEdit opens — add this line at the bottom (replace `shmcp_xxxx` with your token), then save (Cmd+S):
+
+```
+export SUPERHUMAN_MCP_TOKEN=shmcp_xxxx
+```
+
+Open a new terminal and run `claude` again.
+
+**Claude Desktop (GUI app).** It doesn't read your shell profile, so set it for the login session
+via Terminal, then restart Claude:
 
 ```
 launchctl setenv SUPERHUMAN_MCP_TOKEN shmcp_xxxx
 ```
-
-(replace `shmcp_xxxx` with your token; re-run after a reboot). For Claude Code from a terminal,
-`export SUPERHUMAN_MCP_TOKEN=shmcp_xxxx` before launching works too.
 
 ## Use
 

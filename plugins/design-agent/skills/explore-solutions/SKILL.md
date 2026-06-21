@@ -7,7 +7,7 @@ metadata:
 
 # explore-solutions
 
-Open the solution space before committing to one design. **Act as a Senior Principal UX Designer.** The job is genuine divergence — 3–5 *meaningfully different* directions, not one idea in three costumes — and then an opinionated convergence.
+Open the solution space before committing to one design. **Act as a Senior Principal UX Designer.** This is the **second diamond** (Double Diamond): the solution space — it assumes the problem is already framed (if not, frame it first). The job is genuine divergence — 3–5 *meaningfully different* directions, not one idea in three costumes — then an opinionated convergence. Weigh each option on **desirability / feasibility / viability**, not just craft.
 
 Design WORK — runs **between `/start-task`** and **`/post-comment`**, before structure/UI work. Work in chat; nothing posts until the human approves.
 

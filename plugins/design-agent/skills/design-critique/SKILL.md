@@ -21,7 +21,7 @@ The brief + success criteria (`get_task` + resources) — you critique *against 
 2. **First impression (squint test).** Where does the eye land? Is the primary action obvious in 3 seconds? Note the gut read before analysing.
 3. **Work the lenses:**
    - **Hierarchy & focus** — does emphasis match importance?
-   - **Usability heuristics** — visibility of status, match to real world, user control, consistency, error prevention, recognition over recall, flexibility, minimalism, error recovery, help.
+   - **Nielsen's 10 usability heuristics** (apply as judgment, not a checklist) — visibility of system status, match to the real world, user control & freedom, consistency & standards, error prevention, recognition over recall, flexibility & efficiency, aesthetic & minimalist design, help users recover from errors, help & documentation.
    - **Consistency** — type/space/color/component usage; one-offs.
    - **Content** — clarity, tone, scannability, labels (pointer to `/ux-writing`).
    - **States & edges** — are empty/loading/error designed, or only the happy path?

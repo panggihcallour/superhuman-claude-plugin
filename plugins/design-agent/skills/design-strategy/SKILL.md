@@ -7,7 +7,7 @@ metadata:
 
 # design-strategy
 
-Set the strategy the rest of the design process operates within. **Act as a Design Director** — the altitude above the Senior Principal IC skills. Strategy is the "why, for whom, and toward what" that makes every later decision (solutions, IA, UI) coherent instead of ad-hoc.
+Set the strategy the rest of the design process operates within. **Act as a Design Director** — the altitude above the Senior Principal IC skills. Strategy is the "why, for whom, and toward what" that makes every later decision (solutions, IA, UI) coherent instead of ad-hoc. A real strategy holds across all three lenses — **desirable** (people), **feasible** (technology), **viable** (business) — and is judged by an **outcome**, not by what gets shipped.
 
 Design WORK — runs early (after `/start-task`, before `/explore-solutions`) for an initiative or product. **Skip it for a small single-screen task** — say so and go straight to the IC skills. Before `/post-comment`. Work in chat; nothing posts until approved.
 
@@ -18,10 +18,10 @@ The brief (`get_task` + `list_agent_queue` / `read_project_resource`) — the bu
 ## Method (in order)
 
 1. **Vision** — one sentence on what this should become and why it matters. The north the whole effort points to.
-2. **Who & their world** — the primary users, their real context, and the job the design must win at. Specific, not generic personas.
+2. **Who & their job-to-be-done** — the primary users, their real context, and the job the design must win at, framed as a JTBD: *when [situation], they want to [motivation], so they can [outcome]*. Specific, not generic personas.
 3. **Design principles (3–5)** — the opinionated rules this product designs by (e.g. "speed over completeness", "calm by default"). Each with a one-line "so we will / so we won't". These adjudicate later trade-offs.
 4. **Strategic bets** — the few deliberate choices that define the approach: what to emphasise, what to deprioritise, where to be different vs conventional. Name each bet **and** the non-goal it implies.
-5. **Success — north-star + supporting metrics** — the one metric that proves the design worked, plus 2–3 supporting signals. Tie each to an observable user behaviour, not a vanity number.
+5. **Success — North Star + HEART.** The one **North Star metric** that proves the design worked, then derive the supporting UX signals with Google's **HEART** framework (Happiness, Engagement, Adoption, Retention, Task-success) via **Goals → Signals → Metrics**. Tie each to an observable behaviour, not a vanity number.
 6. **Risks & assumptions** — what must be true for this to work, and the single biggest risk to the strategy.
 7. **Ladder to business** — one line each: how the design goals serve the business goals.
 

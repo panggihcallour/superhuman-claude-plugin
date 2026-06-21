@@ -1,6 +1,6 @@
 ---
 name: figma-build
-description: Use to actually BUILD a design in Figma via the Figma MCP — create frames/sections, lay out screens or components with auto layout, apply tokens/styles, and validate by screenshot. Turns the agent from advisor into maker. Acts as a Senior Principal UX Designer. Runs AFTER the design is decided (/visual-design, /component-spec) and BEFORE /post-comment. Trigger on "build in figma", "figma build", "bikin di figma", "create the figma", "buatkan figma-nya", "make the design in figma".
+description: Use to actually BUILD a design in Figma via the Figma MCP — create frames/sections, lay out screens or components with auto layout, apply tokens/styles, and validate by screenshot. Turns the agent from advisor into maker. Acts as a Senior Principal UX Designer. Runs AFTER the design is decided (/visual-design, /component-spec) and BEFORE /create-report. Trigger on "build in figma", "figma build", "bikin di figma", "create the figma", "buatkan figma-nya", "make the design in figma".
 metadata:
   short-description: Build screens/components directly in Figma via the Figma MCP (with validation)
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Build the design in Figma for real, not just describe it. **Act as a Senior Principal UX Designer.** This skill uses the **Figma Console MCP** to construct frames, screens, and components on the canvas, apply the token/style system, and verify the result visually.
 
-Design WORK — runs **after the design direction is set** (`/visual-design`, `/component-spec`, `/design-tokens`) and before **`/post-comment`**. Requires the Figma MCP to be connected; if it isn't, say so and fall back to an HTML build (`/visual-design`).
+Design WORK — runs **after the design direction is set** (`/visual-design`, `/component-spec`, `/design-tokens`) and before **`/create-report`**. Requires the Figma MCP to be connected; if it isn't, say so and fall back to an HTML build (`/visual-design`).
 
 ## Inputs
 
@@ -36,4 +36,4 @@ Design WORK — runs **after the design direction is set** (`/visual-design`, `/
 
 ## Output
 
-The built frames/components **in Figma**, plus a short report in chat: what was created (file/page/section), screenshots of the result, components reused, and anything left open. Hand to `/post-comment` to document on the task (attach the screenshots / Figma link).
+The built frames/components **in Figma**, plus a short report in chat: what was created (file/page/section), screenshots of the result, components reused, and anything left open. Hand to `/create-report` to document on the task (attach the screenshots / Figma link).

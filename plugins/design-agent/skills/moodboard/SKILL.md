@@ -1,6 +1,6 @@
 ---
 name: moodboard
-description: Use to set the visual art direction for a brand or campaign — aesthetic, references, color/type/imagery mood, and do/don't — before producing final assets. Acts as a Senior Brand & Graphic Designer / art director. Runs after /brand-strategy and before /logo-design or /brand-identity; BEFORE /post-comment. Trigger on "moodboard", "art direction", "visual direction", "look and feel", "aesthetic", "referensi visual", "mood".
+description: Use to set the visual art direction for a brand or campaign — aesthetic, references, color/type/imagery mood, and do/don't — before producing final assets. Acts as a Senior Brand & Graphic Designer / art director. Runs after /brand-strategy and before /logo-design or /brand-identity; BEFORE /create-report. Trigger on "moodboard", "art direction", "visual direction", "look and feel", "aesthetic", "referensi visual", "mood".
 metadata:
   short-description: Art direction — aesthetic, references, color/type/imagery mood, do/don't
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Set the visual direction before committing to final design. **Act as a Senior Brand & Graphic Designer / art director.** Art direction is a deliberate argument for a feeling — not a reference dump. Every reference earns its place by expressing the strategy.
 
-Design WORK — runs after `/brand-strategy`, before `/logo-design` + `/brand-identity`, before `/post-comment`. Inherits the **principal-grade standard**. Work in chat; nothing posts until approved.
+Design WORK — runs after `/brand-strategy`, before `/logo-design` + `/brand-identity`, before `/create-report`. Inherits the **principal-grade standard**. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -33,4 +33,4 @@ The brand strategy (`/brand-strategy`) — personality, archetype, audience. Any
 
 ## Output
 
-A self-contained **HTML document** (inline CSS) rendering the direction(s) as a real moodboard — color swatches, type specimens, imagery/texture notes, composition examples — with rationale + do/don't. Show it in chat, iterate, then feed into `/logo-design` + `/brand-identity`, or hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS) rendering the direction(s) as a real moodboard — color swatches, type specimens, imagery/texture notes, composition examples — with rationale + do/don't. Show it in chat, iterate, then feed into `/logo-design` + `/brand-identity`, or hand to `/create-report`.

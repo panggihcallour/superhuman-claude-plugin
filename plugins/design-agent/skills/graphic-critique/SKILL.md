@@ -1,6 +1,6 @@
 ---
 name: graphic-critique
-description: Use to critique brand/graphic work rigorously — concept, composition/layout, typography, color, craft, and brand consistency — with prioritised, actionable fixes, not taste. Acts as a Senior Brand & Graphic Designer. Runs as a QA gate after graphic work exists, BEFORE /post-comment. Trigger on "graphic critique", "critique this design", "review the logo", "feedback on the brand", "kritik desain grafis", "review visual".
+description: Use to critique brand/graphic work rigorously — concept, composition/layout, typography, color, craft, and brand consistency — with prioritised, actionable fixes, not taste. Acts as a Senior Brand & Graphic Designer. Runs as a QA gate after graphic work exists, BEFORE /create-report. Trigger on "graphic critique", "critique this design", "review the logo", "feedback on the brand", "kritik desain grafis", "review visual".
 metadata:
   short-description: Rigorous brand/graphic critique — concept, composition, type, color, consistency
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Critique graphic work the way a senior art director would in a crit. **Act as a Senior Brand & Graphic Designer.** Direct and specific — every point is observation → why it matters → fix, judged against the concept and the brand, not personal taste.
 
-Design WORK — a QA gate after graphic work exists, before `/post-comment`. Inherits the **principal-grade standard**. Work in chat; nothing posts until approved.
+Design WORK — a QA gate after graphic work exists, before `/create-report`. Inherits the **principal-grade standard**. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -38,4 +38,4 @@ The brand strategy/concept it should express (`/brand-strategy`) and the work it
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, grayscale): Concept/brand recap · First impression · Findings grouped Blocker / Major / Minor (observation · why · fix) · What's working · Top 3 to fix first. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, grayscale): Concept/brand recap · First impression · Findings grouped Blocker / Major / Minor (observation · why · fix) · What's working · Top 3 to fix first. Show it in chat, iterate, then hand to `/create-report`.

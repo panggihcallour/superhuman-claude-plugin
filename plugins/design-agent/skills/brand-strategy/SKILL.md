@@ -1,6 +1,6 @@
 ---
 name: brand-strategy
-description: Use to define a brand's strategic foundation — positioning, brand pillars, personality/archetype, audience, and value proposition — before any visual work. Acts as a Senior Brand & Graphic Designer (brand strategist). Runs at the FRONT of brand work, after /start-task and before /moodboard or /logo-design; BEFORE /post-comment. Trigger on "brand strategy", "brand positioning", "brand pillars", "brand personality", "strategi brand", "positioning".
+description: Use to define a brand's strategic foundation — positioning, brand pillars, personality/archetype, audience, and value proposition — before any visual work. Acts as a Senior Brand & Graphic Designer (brand strategist). Runs at the FRONT of brand work, after /start-task and before /moodboard or /logo-design; BEFORE /create-report. Trigger on "brand strategy", "brand positioning", "brand pillars", "brand personality", "strategi brand", "positioning".
 metadata:
   short-description: Brand strategic foundation — positioning, pillars, personality, audience
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Define what the brand stands for before deciding how it looks. **Act as a Senior Brand & Graphic Designer.** Concept before craft — a logo or palette with no strategy behind it is decoration. Everything visual later must trace back to this.
 
-Design WORK — runs early in brand work (after `/start-task`, before `/moodboard` + `/logo-design`), before `/post-comment`. Inherits the **principal-grade standard**: balance desirable / feasible / viable, tie to an outcome, evidence over opinion. Work in chat; nothing posts until the human approves.
+Design WORK — runs early in brand work (after `/start-task`, before `/moodboard` + `/logo-design`), before `/create-report`. Inherits the **principal-grade standard**: balance desirable / feasible / viable, tie to an outcome, evidence over opinion. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -35,4 +35,4 @@ The brief (`get_task` + `read_project_resource` for any existing brand/business 
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Problem & audience · Positioning statement · Brand pillars · Personality & archetype · Value proposition + tagline territory · Competitive whitespace · Open questions. Show it in chat, iterate, then feed into `/moodboard` + `/logo-design`, or hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Problem & audience · Positioning statement · Brand pillars · Personality & archetype · Value proposition + tagline territory · Competitive whitespace · Open questions. Show it in chat, iterate, then feed into `/moodboard` + `/logo-design`, or hand to `/create-report`.

@@ -1,6 +1,6 @@
 ---
 name: asset-handoff
-description: Use to package final brand/graphic assets for production — the export set, file formats, color spaces, naming, and specs a developer or printer needs. Acts as a Senior Brand & Graphic Designer. Runs at the END of graphic work, BEFORE /post-comment. Trigger on "asset handoff", "export assets", "asset package", "deliver the files", "production files", "export package", "serah aset".
+description: Use to package final brand/graphic assets for production — the export set, file formats, color spaces, naming, and specs a developer or printer needs. Acts as a Senior Brand & Graphic Designer. Runs at the END of graphic work, BEFORE /create-report. Trigger on "asset handoff", "export assets", "asset package", "deliver the files", "production files", "export package", "serah aset".
 metadata:
   short-description: Production-ready asset package — formats, color spaces, naming, specs
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Package the work so production never has to ask you for a file. **Act as a Senior Brand & Graphic Designer.** Handoff is craft too — the right formats, the right color spaces, named so anyone can find them.
 
-Design WORK — runs last in graphic work, before `/post-comment`. Inherits the **principal-grade standard**. Export from Figma via the Figma MCP if the assets live there. Work in chat; nothing posts until approved.
+Design WORK — runs last in graphic work, before `/create-report`. Inherits the **principal-grade standard**. Export from Figma via the Figma MCP if the assets live there. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ The final assets — logo system (`/logo-design`), identity (`/brand-identity`),
 
 ## Output
 
-A self-contained **HTML document** (inline CSS): the export matrix (asset × format/size/color space), naming convention, fonts list, and folder structure — plus the spec sheet. If exporting from Figma, note what was produced. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS): the export matrix (asset × format/size/color space), naming convention, fonts list, and folder structure — plus the spec sheet. If exporting from Figma, note what was produced. Show it in chat, iterate, then hand to `/create-report`.

@@ -1,6 +1,6 @@
 ---
 name: ux-writing
-description: Use to write or fix the actual interface copy — labels, buttons/CTAs, headings, helper text, empty/loading/error/success states, and microcopy — with a defined voice & tone. Acts as a Senior Principal UX Designer / content designer. Runs AFTER /start-task (often alongside /wireframe or /visual-design) and BEFORE /post-comment. Trigger on "ux writing", "microcopy", "tulis copy", "copywriting UI", "error message", "empty state copy", "tone of voice", "labelnya gimana".
+description: Use to write or fix the actual interface copy — labels, buttons/CTAs, headings, helper text, empty/loading/error/success states, and microcopy — with a defined voice & tone. Acts as a Senior Principal UX Designer / content designer. Runs AFTER /start-task (often alongside /wireframe or /visual-design) and BEFORE /create-report. Trigger on "ux writing", "microcopy", "tulis copy", "copywriting UI", "error message", "empty state copy", "tone of voice", "labelnya gimana".
 metadata:
   short-description: Interface copy deck — voice, labels, states, microcopy
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Write the words in the interface. **Act as a Senior Principal UX Designer doing content design.** Copy is UX: clear, concise, useful, and on-voice — it reduces effort and anxiety, never adds to it.
 
-Design WORK — runs **between `/start-task`** and **`/post-comment`**, usually attached to a screen from `/wireframe` or `/visual-design`. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/start-task`** and **`/create-report`**, usually attached to a screen from `/wireframe` or `/visual-design`. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ The active task's brief (`get_task` + resources) — users, their context, and t
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Voice & tone principles · Copy deck as a table (Screen · Slot · Copy · Note) covering all states · Terminology list · Open questions. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Voice & tone principles · Copy deck as a table (Screen · Slot · Copy · Note) covering all states · Terminology list · Open questions. Show it in chat, iterate, then hand to `/create-report`.

@@ -20,7 +20,7 @@ all in one install. `start-task` reads a task, picks the right specialist, and r
 | **Research Agent** | Senior UX & Market Researcher | evidence — user/market research, synthesis, usability, opportunity framing | coming |
 
 Shared by every agent: **`start-task`** (the conductor — understand a task, then do it yourself or
-run the full pipeline) and **`post-comment`** (document the result back on the task). Each agent
+run the full pipeline) and **`create-report`** (report the **process + outcome** back on the task — what was explored, the decisions, then the deliverable). Each agent
 works at a senior, principal level in its craft.
 
 **Design Agent skills (live):**
@@ -88,7 +88,7 @@ launchctl setenv SUPERHUMAN_MCP_TOKEN shmcp_xxxx
 ## Use
 
 - `/start-task` — paste a task link; it reads the task, moves it to in-progress, and kicks off, then either hands you the wheel or runs the full process.
-- `/post-comment` — when done, it summarises the work and posts it to the task (after you approve).
+- `/create-report` — when done, it reports the **process + outcome** (what it explored, the decisions, then the deliverable) and posts it to the task (after you approve).
 
 Verify it's connected: paste a task link and ask Claude to `get_task <link>` — it should return
 the task's title and status.

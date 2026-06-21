@@ -1,6 +1,6 @@
 ---
 name: wireframe
-description: Use to produce low-fidelity wireframes for the key screens of a product/feature, annotated with hierarchy, components, states, and interaction notes. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (and usually after /information-architecture) and BEFORE /post-comment. Trigger on "buatkan wireframe", "wireframe", "low-fi", "rangka layar / screen", "layout screen", or a task that asks for wireframes.
+description: Use to produce low-fidelity wireframes for the key screens of a product/feature, annotated with hierarchy, components, states, and interaction notes. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (and usually after /information-architecture) and BEFORE /create-report. Trigger on "buatkan wireframe", "wireframe", "low-fi", "rangka layar / screen", "layout screen", or a task that asks for wireframes.
 metadata:
   short-description: Senior-grade low-fi wireframes (grayscale HTML, annotated with states)
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Produce low-fidelity wireframes. **Act as a Senior Principal UX Designer.** Content and hierarchy first; NO visual styling (grayscale boxes, system font, thin borders). Every screen is a set of deliberate decisions, each annotated with its "why".
 
-Design WORK — runs **between `/start-task` and `/post-comment`**, ideally **after `/information-architecture`** (wireframes realise the IA's flows). Work in chat; nothing posts until approved.
+Design WORK — runs **between `/start-task` and `/create-report`**, ideally **after `/information-architecture`** (wireframes realise the IA's flows). Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -35,4 +35,4 @@ Read the brief and any IA already produced (`get_task`; recent artifacts via `li
 
 ## Output
 
-A self-contained **HTML document** (inline CSS) — intentionally rough and **grayscale** (system font, thin gray borders, no color), one section per screen with the wireframe and its annotations, plus a short "screens & why" intro and an "open questions" close. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS) — intentionally rough and **grayscale** (system font, thin gray borders, no color), one section per screen with the wireframe and its annotations, plus a short "screens & why" intro and an "open questions" close. Show it in chat, iterate, then hand to `/create-report`.

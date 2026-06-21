@@ -1,6 +1,6 @@
 ---
 name: sitemap
-description: Use to produce a sitemap — the structural page/screen hierarchy of a product or feature (sections, nesting, primary vs secondary), organised around the user's mental model. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (usually alongside /information-architecture) and BEFORE /post-comment. Trigger on "buatkan sitemap", "sitemap", "struktur halaman", "page hierarchy", "site structure", "peta halaman".
+description: Use to produce a sitemap — the structural page/screen hierarchy of a product or feature (sections, nesting, primary vs secondary), organised around the user's mental model. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (usually alongside /information-architecture) and BEFORE /create-report. Trigger on "buatkan sitemap", "sitemap", "struktur halaman", "page hierarchy", "site structure", "peta halaman".
 metadata:
   short-description: Senior-grade sitemap — page/screen hierarchy as an annotated tree
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Produce a sitemap — the **structural hierarchy** of the product's pages/screens. **Act as a Senior Principal UX Designer.** Organise by the user's mental model (not the org chart); prefer broad-and-shallow; every grouping carries a reason.
 
-This is design WORK — it runs **between `/start-task`** and **`/post-comment`**. It pairs with `/information-architecture`: IA handles content, navigation, labeling, and flows; the **page hierarchy lives here.** Work in chat; nothing posts until the human approves.
+This is design WORK — it runs **between `/start-task`** and **`/create-report`**. It pairs with `/information-architecture`: IA handles content, navigation, labeling, and flows; the **page hierarchy lives here.** Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -35,4 +35,4 @@ Read the brief and any content inventory already produced: `get_task`, plus `lis
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale) showing the sitemap as an indented / visual **tree**, each node tagged (primary / secondary / utility / contextual), with rationale notes and an open-questions close. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale) showing the sitemap as an indented / visual **tree**, each node tagged (primary / secondary / utility / contextual), with rationale notes and an open-questions close. Show it in chat, iterate, then hand to `/create-report`.

@@ -1,6 +1,6 @@
 ---
 name: start-task
-description: The daily entry point for working a Superhuman Operations task. Reads the task via the Operations MCP, understands it deeply, frames the design brief (problem/users/success/scope/constraints), silently flips it to in_progress, and gives an active kickoff — then FORKS: either you do it yourself (cherry-pick skills), or it conducts the whole design process end-to-end (strategy → solutions → structure → production → QA → post-comment) with gate checkpoints and parallel sub-agents. Trigger when the user says "kerjain task X", "mulai task X", "start task ...", "kerjain full", "jalanin pipeline desain", or points at a Superhuman task / task link.
+description: The daily entry point for working a Superhuman Operations task. Reads the task via the Operations MCP, understands it deeply, frames the design brief (problem/users/success/scope/constraints), silently flips it to in_progress, and gives an active kickoff — then FORKS: either you do it yourself (cherry-pick skills), or it conducts the whole design process end-to-end (strategy → solutions → structure → production → QA → create-report) with gate checkpoints and parallel sub-agents. Trigger when the user says "kerjain task X", "mulai task X", "start task ...", "kerjain full", "jalanin pipeline desain", or points at a Superhuman task / task link.
 ---
 
 # start-task
@@ -27,7 +27,7 @@ Whatever the craft, work at a **principal** level. The research-backed gap betwe
 - **Judgment, not checklists.** Apply heuristics and frameworks as rules of thumb you weigh, not boxes to tick.
 - **Make trade-offs explicit** — name what you're deliberately NOT doing, and flag the decisions that need a human.
 
-**Principle: Claude is the workspace, Superhuman is documentation only.** The ONLY Superhuman write during the session is the silent `in_progress` flip below. All drafting and revision stays in chat; the task gets a comment only at the very end, via `/post-comment`.
+**Principle: Claude is the workspace, Superhuman is documentation only.** The ONLY Superhuman write during the session is the silent `in_progress` flip below. All drafting and revision stays in chat; the task gets a comment only at the very end, via `/create-report`.
 
 Tools: the **Superhuman Operations MCP** (`get_task`, `list_agent_queue`, `read_project_resource`, `request_clarification`, `update_task`, …) to read + move the task; the **Agent tool** to fan out parallel sub-agents (Claude Code); the design **skills** as phase playbooks.
 
@@ -63,7 +63,7 @@ Then run the approved phases, in order (Part 1 already did **A**):
 - **C · Structure** — `/information-architecture` + `/sitemap` (independent → parallel sub-agents) + `/ux-writing` if copy-heavy. 🔒 **Gate.**
 - **D · Produce** — `/wireframe` → `/visual-design` → `/prototype` and/or `/figma-build`; add `/design-tokens` + `/component-spec` if a system is needed. Sequential — the designer steers each. 🔒 **Gate per major artifact.**
 - **E · QA gates** — `/design-critique` + `/wcag-check` + `/edge-cases` (+ `/figma-audit` / `/design-parity` if Figma/a build exists). Independent → parallel sub-agents, then synthesise. 🔒 **Gate.**
-- **F · Document & post** — `/design-spec` if a handoff is needed → `/post-comment` (preview → "rilis").
+- **F · Document & post** — `/design-spec` if a handoff is needed → `/create-report` (preview → "rilis").
 
 **How to run each phase:**
 - **Interactive / judgment phases** (strategy, solutions, produce): run the skill **in this conversation** so the designer sees the reasoning and can steer.
@@ -78,4 +78,4 @@ Then run the approved phases, in order (Part 1 already did **A**):
 - **Pick phases, don't force the whole suite** — match the task type; name what you skip and why.
 - **Sub-agents get explicit instructions** — pass the phase's skill content + the brief; never assume a sub-agent inherited the skills.
 - **Escalate to the PM only if truly blocked** — `request_clarification` (preview → confirm) for a question only the PM/author/client can answer that blocks starting; otherwise keep clarifying in chat.
-- Remember the active `task_id` so `/post-comment` documents the right task.
+- Remember the active `task_id` so `/create-report` documents the right task.

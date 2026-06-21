@@ -1,6 +1,6 @@
 ---
 name: component-spec
-description: Use to specify a reusable UI component — anatomy, variants, all states, sizes, props/config, content rules, accessibility, and usage do/don'ts — tool-agnostic (no framework binding). Acts as a Senior Principal UX Designer / design-systems lead. Can inspect components in Figma via the Figma MCP when connected. Runs AFTER /start-task (often after /design-tokens) and BEFORE /post-comment. Trigger on "component spec", "spec a component", "button states", "variants", "design a component", "spek komponen".
+description: Use to specify a reusable UI component — anatomy, variants, all states, sizes, props/config, content rules, accessibility, and usage do/don'ts — tool-agnostic (no framework binding). Acts as a Senior Principal UX Designer / design-systems lead. Can inspect components in Figma via the Figma MCP when connected. Runs AFTER /start-task (often after /design-tokens) and BEFORE /create-report. Trigger on "component spec", "spec a component", "button states", "variants", "design a component", "spek komponen".
 metadata:
   short-description: Tool-agnostic reusable-component spec (anatomy, variants, states, a11y)
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Specify a single reusable component completely enough to build once and reuse everywhere. **Act as a Senior Principal UX Designer / design-systems lead.** A good spec removes ambiguity: anatomy, every variant and state, the rules for using it, and how it stays accessible. Keep it **tool-agnostic** — describe the component, don't bind it to a framework or library.
 
-Design WORK — runs **between `/start-task`** and **`/post-comment`**, building on `/design-tokens`. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/start-task`** and **`/create-report`**, building on `/design-tokens`. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -36,4 +36,4 @@ Design WORK — runs **between `/start-task`** and **`/post-comment`**, building
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale) that *renders* the component's variants and states as live specimens, plus: Purpose · Anatomy (token-mapped) · Variant matrix · State table · Behaviour/content rules · Accessibility · Do/Don't · Open questions. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale) that *renders* the component's variants and states as live specimens, plus: Purpose · Anatomy (token-mapped) · Variant matrix · State table · Behaviour/content rules · Accessibility · Do/Don't · Open questions. Show it in chat, iterate, then hand to `/create-report`.

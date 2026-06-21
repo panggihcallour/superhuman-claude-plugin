@@ -1,6 +1,6 @@
 ---
 name: design-strategy
-description: Use to set the high-altitude design strategy for a product or initiative — vision, design principles, strategic bets (and non-goals), north-star + supporting metrics, and how design ladders to business goals. Acts as a Design Director (a notch above the IC skills). Runs at the FRONT, after /start-task and before /explore-solutions, for initiative-level work (skip for a small single-screen task). BEFORE /post-comment. Trigger on "design strategy", "design vision", "design principles", "north star", "strategi desain", "arah desain".
+description: Use to set the high-altitude design strategy for a product or initiative — vision, design principles, strategic bets (and non-goals), north-star + supporting metrics, and how design ladders to business goals. Acts as a Design Director (a notch above the IC skills). Runs at the FRONT, after /start-task and before /explore-solutions, for initiative-level work (skip for a small single-screen task). BEFORE /create-report. Trigger on "design strategy", "design vision", "design principles", "north star", "strategi desain", "arah desain".
 metadata:
   short-description: Director-level design strategy — vision, principles, bets, metrics
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Set the strategy the rest of the design process operates within. **Act as a Design Director** — the altitude above the Senior Principal IC skills. Strategy is the "why, for whom, and toward what" that makes every later decision (solutions, IA, UI) coherent instead of ad-hoc. A real strategy holds across all three lenses — **desirable** (people), **feasible** (technology), **viable** (business) — and is judged by an **outcome**, not by what gets shipped.
 
-Design WORK — runs early (after `/start-task`, before `/explore-solutions`) for an initiative or product. **Skip it for a small single-screen task** — say so and go straight to the IC skills. Before `/post-comment`. Work in chat; nothing posts until approved.
+Design WORK — runs early (after `/start-task`, before `/explore-solutions`) for an initiative or product. **Skip it for a small single-screen task** — say so and go straight to the IC skills. Before `/create-report`. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -35,4 +35,4 @@ The brief (`get_task` + `list_agent_queue` / `read_project_resource`) — the bu
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Vision · Users & their world · Design principles · Strategic bets (+ non-goals) · Success metrics · Risks & assumptions · Ladder to business · Open questions. Show it in chat, iterate, then feed it into `/explore-solutions` or hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Vision · Users & their world · Design principles · Strategic bets (+ non-goals) · Success metrics · Risks & assumptions · Ladder to business · Open questions. Show it in chat, iterate, then feed it into `/explore-solutions` or hand to `/create-report`.

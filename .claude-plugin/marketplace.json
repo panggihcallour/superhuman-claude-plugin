@@ -9,7 +9,7 @@
       "source": "./plugins/design-agent",
       "displayName": "Superhuman Agent",
       "description": "Superhuman Agent — one plugin, several senior specialists (Design live; Graphic, Dev, Research coming) that work your Superhuman Operations tasks. Operational surface only.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "author": { "name": "Callour Studio" }
     }
   ]

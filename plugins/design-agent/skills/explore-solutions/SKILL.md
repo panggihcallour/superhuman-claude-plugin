@@ -1,6 +1,6 @@
 ---
 name: explore-solutions
-description: Use to diverge on a problem — generate several genuinely distinct solution directions (each with its concept, rough flow, and trade-offs) and alternative flows, then converge on a recommendation. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (and usually after /competitive-audit) and BEFORE /information-architecture or /wireframe; BEFORE /post-comment. Trigger on "explore solutions", "explore solution", "alternatif flow", "alternative flow", "opsi desain", "brainstorm approach", "kasih beberapa pendekatan".
+description: Use to diverge on a problem — generate several genuinely distinct solution directions (each with its concept, rough flow, and trade-offs) and alternative flows, then converge on a recommendation. Acts as a Senior Principal UX Designer. Runs AFTER /start-task (and usually after /competitive-audit) and BEFORE /information-architecture or /wireframe; BEFORE /create-report. Trigger on "explore solutions", "explore solution", "alternatif flow", "alternative flow", "opsi desain", "brainstorm approach", "kasih beberapa pendekatan".
 metadata:
   short-description: Diverge into distinct solution directions + alternative flows, then recommend
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Open the solution space before committing to one design. **Act as a Senior Principal UX Designer.** This is the **second diamond** (Double Diamond): the solution space — it assumes the problem is already framed (if not, frame it first). The job is genuine divergence — 3–5 *meaningfully different* directions, not one idea in three costumes — then an opinionated convergence. Weigh each option on **desirability / feasibility / viability**, not just craft.
 
-Design WORK — runs **between `/start-task`** and **`/post-comment`**, before structure/UI work. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/start-task`** and **`/create-report`**, before structure/UI work. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -36,4 +36,4 @@ The active task's brief (`get_task` + `list_agent_queue` / `read_project_resourc
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Problem & constraints · Directions (concept / flow / trade-offs / fit, one block each) · Comparison matrix · Recommendation + what to validate · Open questions. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Problem & constraints · Directions (concept / flow / trade-offs / fit, one block each) · Comparison matrix · Recommendation + what to validate · Open questions. Show it in chat, iterate, then hand to `/create-report`.

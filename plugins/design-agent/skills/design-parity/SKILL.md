@@ -1,6 +1,6 @@
 ---
 name: design-parity
-description: Use to check a built/implemented UI against the design source of truth — spacing, color, type, component, and state drift — by comparing the live preview to the Figma/design, with a ranked diff and fixes. Acts as a Senior Principal UX Designer. Runs at the END, after something is built, BEFORE /post-comment. Trigger on "design parity", "does the build match the design", "implementation review", "pixel parity", "cek implementasi vs desain", "design QA".
+description: Use to check a built/implemented UI against the design source of truth — spacing, color, type, component, and state drift — by comparing the live preview to the Figma/design, with a ranked diff and fixes. Acts as a Senior Principal UX Designer. Runs at the END, after something is built, BEFORE /create-report. Trigger on "design parity", "does the build match the design", "implementation review", "pixel parity", "cek implementasi vs desain", "design QA".
 metadata:
   short-description: Compare built UI vs design source of truth and rank the drift
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Check that what got built matches what was designed. **Act as a Senior Principal UX Designer.** Implementations drift — spacing rounds off, colors get eyeballed, states get skipped. This skill finds the gap between the design source of truth and the running UI, and ranks it.
 
-Design WORK — runs **last, after something is built**, before **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — runs **last, after something is built**, before **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -40,4 +40,4 @@ Design WORK — runs **last, after something is built**, before **`/post-comment
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): side-by-side summary · Findings grouped Blocker / Major / Minor (design value vs built value vs fix) · States coverage check · Top fixes before ship. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): side-by-side summary · Findings grouped Blocker / Major / Minor (design value vs built value vs fix) · States coverage check · Top fixes before ship. Show it in chat, iterate, then hand to `/create-report`.

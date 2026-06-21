@@ -1,6 +1,6 @@
 ---
 name: edge-cases
-description: Use to enumerate the edge cases and states a design must handle — empty, loading, error, partial, overflow/long content, zero/one/many, permissions, offline, first-run, extremes, i18n — as a concrete checklist of what still needs designing. Acts as a Senior Principal UX Designer. Runs after a happy-path design exists, as a QA gate BEFORE /post-comment. Trigger on "edge cases", "what states do I need", "list edge cases", "corner cases", "cek edge case", "state apa aja yang perlu".
+description: Use to enumerate the edge cases and states a design must handle — empty, loading, error, partial, overflow/long content, zero/one/many, permissions, offline, first-run, extremes, i18n — as a concrete checklist of what still needs designing. Acts as a Senior Principal UX Designer. Runs after a happy-path design exists, as a QA gate BEFORE /create-report. Trigger on "edge cases", "what states do I need", "list edge cases", "corner cases", "cek edge case", "state apa aja yang perlu".
 metadata:
   short-description: Enumerate the edge cases / states still to be designed (as a checklist)
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Find everything the happy-path design forgot. **Act as a Senior Principal UX Designer.** Most design debt lives in the states nobody drew — this skill surfaces them as a concrete to-design checklist before they become production bugs.
 
-Design WORK — a QA gate that runs **after a happy-path design exists** and before **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — a QA gate that runs **after a happy-path design exists** and before **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -36,4 +36,4 @@ For each relevant edge: the **screen/component**, the **scenario**, **what shoul
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): a checklist table (Screen · Edge scenario · Intended behaviour · Priority), grouped by dimension, with a "must-design before ship" shortlist on top. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): a checklist table (Screen · Edge scenario · Intended behaviour · Priority), grouped by dimension, with a "must-design before ship" shortlist on top. Show it in chat, iterate, then hand to `/create-report`.

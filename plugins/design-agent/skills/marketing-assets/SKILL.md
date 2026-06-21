@@ -1,6 +1,6 @@
 ---
 name: marketing-assets
-description: Use to produce on-brand marketing and social collateral — templates and layouts for the formats a campaign needs (social posts, stories, ads, banners, decks) — with platform specs and a consistent system. Acts as a Senior Brand & Graphic Designer. Runs after /brand-identity (or against an existing brand) and BEFORE /post-comment. Trigger on "marketing assets", "social media assets", "social templates", "ad creative", "banner", "collateral", "konten visual", "feed instagram".
+description: Use to produce on-brand marketing and social collateral — templates and layouts for the formats a campaign needs (social posts, stories, ads, banners, decks) — with platform specs and a consistent system. Acts as a Senior Brand & Graphic Designer. Runs after /brand-identity (or against an existing brand) and BEFORE /create-report. Trigger on "marketing assets", "social media assets", "social templates", "ad creative", "banner", "collateral", "konten visual", "feed instagram".
 metadata:
   short-description: On-brand marketing/social collateral — templates, platform specs, hierarchy
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Produce marketing collateral that's unmistakably on-brand and built to scale. **Act as a Senior Brand & Graphic Designer.** Good campaign design is a system, not 20 one-offs — one visual language, many formats, every piece earning attention for the message.
 
-Design WORK — runs after `/brand-identity` (or against an existing brand), before `/post-comment`. Inherits the **principal-grade standard** — tie the work to the campaign outcome, not just "looks nice". Can build in Figma via the Figma MCP. Work in chat; nothing posts until approved.
+Design WORK — runs after `/brand-identity` (or against an existing brand), before `/create-report`. Inherits the **principal-grade standard** — tie the work to the campaign outcome, not just "looks nice". Can build in Figma via the Figma MCP. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -33,4 +33,4 @@ The brand identity (`/brand-identity`) or existing brand assets (`read_project_r
 
 ## Output
 
-A self-contained **HTML document** (inline CSS) rendering the template system + the key formats with real content, the format/spec list, and adaptation notes. If built in Figma, note the frames. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS) rendering the template system + the key formats with real content, the format/spec list, and adaptation notes. If built in Figma, note the frames. Show it in chat, iterate, then hand to `/create-report`.

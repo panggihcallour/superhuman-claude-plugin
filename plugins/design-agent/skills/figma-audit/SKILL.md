@@ -1,6 +1,6 @@
 ---
 name: figma-audit
-description: Use to audit a Figma file's hygiene via the Figma MCP — auto-layout usage, layer naming, and design-system adherence (detached instances, off-token colors/type, ad-hoc values) — with a fix list. Acts as a Senior Principal UX Designer / design-systems lead. Runs as a QA gate on Figma work, BEFORE /post-comment. Trigger on "figma audit", "check auto layout", "check layer naming", "is this using the design system", "audit figma", "cek figma", "design system compliance".
+description: Use to audit a Figma file's hygiene via the Figma MCP — auto-layout usage, layer naming, and design-system adherence (detached instances, off-token colors/type, ad-hoc values) — with a fix list. Acts as a Senior Principal UX Designer / design-systems lead. Runs as a QA gate on Figma work, BEFORE /create-report. Trigger on "figma audit", "check auto layout", "check layer naming", "is this using the design system", "audit figma", "cek figma", "design system compliance".
 metadata:
   short-description: Figma hygiene audit — auto layout, layer naming, design-system adherence
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Audit a Figma file for craft and system hygiene. **Act as a Senior Principal UX Designer / design-systems lead.** Three things in one pass: is it built on **auto layout**, are **layers named** like a teammate could navigate them, and does it actually **use the design system** (components, styles, tokens) instead of detached one-offs.
 
-Design WORK — a QA gate on Figma work, before **`/post-comment`**. Requires the Figma MCP; if it isn't connected, say so. Work in chat; nothing posts until the human approves.
+Design WORK — a QA gate on Figma work, before **`/create-report`**. Requires the Figma MCP; if it isn't connected, say so. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -33,4 +33,4 @@ The Figma file under review. Start with `figma_get_status` / `figma_list_open_fi
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Scorecard · Auto-layout findings · Layer-naming findings · Design-system adherence findings · Prioritised fix list (with which are auto-applicable). Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Scorecard · Auto-layout findings · Layer-naming findings · Design-system adherence findings · Prioritised fix list (with which are auto-applicable). Show it in chat, iterate, then hand to `/create-report`.

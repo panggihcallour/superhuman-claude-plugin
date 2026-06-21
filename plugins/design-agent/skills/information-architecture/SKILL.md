@@ -1,6 +1,6 @@
 ---
 name: information-architecture
-description: Use to produce an information architecture for a product/feature from a task brief — content inventory, navigation model, key user flows, labeling/taxonomy. (The page hierarchy is the separate /sitemap skill.) Acts as a Senior Principal UX Designer. Runs AFTER /start-task (it works the active task's brief) and BEFORE /post-comment. Trigger on "buatkan IA", "information architecture", "struktur konten / informasi", "user flow", "navigation model", or a task that asks for IA.
+description: Use to produce an information architecture for a product/feature from a task brief — content inventory, navigation model, key user flows, labeling/taxonomy. (The page hierarchy is the separate /sitemap skill.) Acts as a Senior Principal UX Designer. Runs AFTER /start-task (it works the active task's brief) and BEFORE /create-report. Trigger on "buatkan IA", "information architecture", "struktur konten / informasi", "user flow", "navigation model", or a task that asks for IA.
 metadata:
   short-description: Senior-grade IA (content, navigation, flows, labeling) from a brief
 ---
@@ -11,7 +11,7 @@ Produce an information architecture. **Act as a Senior Principal UX Designer.** 
 
 > The **page/screen hierarchy (sitemap) is its own deliverable** — run the `/sitemap` skill for that. This skill covers content, navigation, labeling, and flows.
 
-This is design WORK — it runs **between `/start-task`** (which opened the task + its brief) **and `/post-comment`** (which posts the deliverable). Work in chat; nothing is written to the task until the human approves.
+This is design WORK — it runs **between `/start-task`** (which opened the task + its brief) **and `/create-report`** (which posts the deliverable). Work in chat; nothing is written to the task until the human approves.
 
 ## Inputs
 
@@ -37,4 +37,4 @@ Read the active task's brief and context first: `get_task`, plus `list_agent_que
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale) with sections: Objective & assumptions · Content inventory · Navigation model · Labeling notes · Key user flows · Content model (if any) · Open questions. (For the page hierarchy, see `/sitemap`.) Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale) with sections: Objective & assumptions · Content inventory · Navigation model · Labeling notes · Key user flows · Content model (if any) · Open questions. (For the page hierarchy, see `/sitemap`.) Show it in chat, iterate, then hand to `/create-report`.

@@ -1,6 +1,6 @@
 ---
 name: design-tokens
-description: Use to define or extract a design-token system — color, typography, spacing, radius, elevation, breakpoints, motion — with a clear naming scheme, tool-agnostic (no framework binding). Acts as a Senior Principal UX Designer / design-systems lead. Can read or set tokens in Figma via the Figma MCP when a file is connected. Runs AFTER /start-task and usually before /component-spec or /visual-design; BEFORE /post-comment. Trigger on "design tokens", "token system", "color scale", "type scale", "spacing scale", "buatkan token".
+description: Use to define or extract a design-token system — color, typography, spacing, radius, elevation, breakpoints, motion — with a clear naming scheme, tool-agnostic (no framework binding). Acts as a Senior Principal UX Designer / design-systems lead. Can read or set tokens in Figma via the Figma MCP when a file is connected. Runs AFTER /start-task and usually before /component-spec or /visual-design; BEFORE /create-report. Trigger on "design tokens", "token system", "color scale", "type scale", "spacing scale", "buatkan token".
 metadata:
   short-description: Tool-agnostic design-token system (color, type, space, radius, motion)
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Define the primitive design decisions as named tokens. **Act as a Senior Principal UX Designer / design-systems lead.** Tokens are the single source of truth a whole product is built from — semantic, consistent, and scalable. Keep them **tool-agnostic** (no framework/library binding); the token names and values are the deliverable.
 
-Design WORK — runs **between `/start-task`** and **`/post-comment`**, feeding `/component-spec` and `/visual-design`. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/start-task`** and **`/create-report`**, feeding `/component-spec` and `/visual-design`. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -36,4 +36,4 @@ Design WORK — runs **between `/start-task`** and **`/post-comment`**, feeding 
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale, with real swatches/specimens) of the full token set, two-tier, with the naming convention — **and** a copy-paceable JSON block of the tokens. If Figma was used, note what was read or written. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale, with real swatches/specimens) of the full token set, two-tier, with the naming convention — **and** a copy-paceable JSON block of the tokens. If Figma was used, note what was read or written. Show it in chat, iterate, then hand to `/create-report`.

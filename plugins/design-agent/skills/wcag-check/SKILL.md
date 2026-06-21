@@ -1,6 +1,6 @@
 ---
 name: wcag-check
-description: Use to audit a design or built UI for accessibility against WCAG 2.2 AA — contrast, text sizing, target size, keyboard/focus, semantics/ARIA, forms, motion — with severity-ranked findings and concrete fixes. Acts as a Senior Principal UX Designer / accessibility specialist. Runs as a QA gate AFTER a design exists and BEFORE /post-comment. Trigger on "wcag", "accessibility", "a11y check", "contrast check", "cek aksesibilitas", "is this accessible".
+description: Use to audit a design or built UI for accessibility against WCAG 2.2 AA — contrast, text sizing, target size, keyboard/focus, semantics/ARIA, forms, motion — with severity-ranked findings and concrete fixes. Acts as a Senior Principal UX Designer / accessibility specialist. Runs as a QA gate AFTER a design exists and BEFORE /create-report. Trigger on "wcag", "accessibility", "a11y check", "contrast check", "cek aksesibilitas", "is this accessible".
 metadata:
   short-description: WCAG 2.2 AA audit — contrast, keyboard, semantics, targets, motion
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Audit accessibility against **WCAG 2.2 AA**. **Act as a Senior Principal UX Designer / accessibility specialist.** Accessibility is a requirement, not a nice-to-have — findings are concrete and ranked, with the exact fix.
 
-Design WORK — a QA gate that runs **after a design/build exists** and before **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — a QA gate that runs **after a design/build exists** and before **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ For each issue: the **WCAG criterion**, the **severity** (Blocker / Major / Mino
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Summary verdict · Findings grouped by severity (criterion · location · issue · fix) · Items to re-test at build time · Quick wins. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Summary verdict · Findings grouped by severity (criterion · location · issue · fix) · Items to re-test at build time · Quick wins. Show it in chat, iterate, then hand to `/create-report`.

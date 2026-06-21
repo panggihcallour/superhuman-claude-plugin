@@ -1,6 +1,6 @@
 ---
 name: brand-guidelines
-description: Use to compile the brand book — the rules that keep the identity consistent: logo usage + do/don't, color values, typography, spacing/grid, imagery, voice, and application examples. Acts as a Senior Brand & Graphic Designer. Runs late, after the identity exists (/brand-identity), BEFORE /post-comment. Trigger on "brand guidelines", "brand book", "style guide", "brand manual", "panduan brand", "guideline brand".
+description: Use to compile the brand book — the rules that keep the identity consistent: logo usage + do/don't, color values, typography, spacing/grid, imagery, voice, and application examples. Acts as a Senior Brand & Graphic Designer. Runs late, after the identity exists (/brand-identity), BEFORE /create-report. Trigger on "brand guidelines", "brand book", "style guide", "brand manual", "panduan brand", "guideline brand".
 metadata:
   short-description: The brand book — usage rules, do/don't, values, and application examples
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Compile the rules that let anyone use the brand correctly without you in the room. **Act as a Senior Brand & Graphic Designer.** A brand book's job: make the right use easy and the wrong use obvious.
 
-Design WORK — runs late, after `/brand-identity`, before `/post-comment`. Inherits the **principal-grade standard**. Pull precise values from Figma via the Figma MCP if connected. Work in chat; nothing posts until approved.
+Design WORK — runs late, after `/brand-identity`, before `/create-report`. Inherits the **principal-grade standard**. Pull precise values from Figma via the Figma MCP if connected. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -36,4 +36,4 @@ The full identity system (`/brand-identity`), logo (`/logo-design`), art directi
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, rendered specimens + do/don't) structured as a brand book: Essence · Logo (+ do/don't) · Color · Typography · Imagery · Layout & motifs · Voice · Applications. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, rendered specimens + do/don't) structured as a brand book: Essence · Logo (+ do/don't) · Color · Typography · Imagery · Layout & motifs · Voice · Applications. Show it in chat, iterate, then hand to `/create-report`.

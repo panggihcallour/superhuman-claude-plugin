@@ -1,6 +1,6 @@
 ---
 name: logo-design
-description: Use to design a logo — concept-driven exploration, construction, responsive/lockup variations, and the standard tests (black-and-white, small-size, scalability, distinctiveness). Acts as a Senior Brand & Graphic Designer. Runs after /brand-strategy (and /moodboard) and before /brand-identity; BEFORE /post-comment. Trigger on "logo", "logo design", "wordmark", "logomark", "buatkan logo", "desain logo".
+description: Use to design a logo — concept-driven exploration, construction, responsive/lockup variations, and the standard tests (black-and-white, small-size, scalability, distinctiveness). Acts as a Senior Brand & Graphic Designer. Runs after /brand-strategy (and /moodboard) and before /brand-identity; BEFORE /create-report. Trigger on "logo", "logo design", "wordmark", "logomark", "buatkan logo", "desain logo".
 metadata:
   short-description: Concept-driven logo — construction, variations, and the standard tests
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Design a logo that earns its simplicity. **Act as a Senior Brand & Graphic Designer.** A logo is a concept made permanent — it must work at any size, in one color, for years. Concept before craft; rigor before flourish.
 
-Design WORK — runs after `/brand-strategy` + `/moodboard`, before `/brand-identity`, before `/post-comment`. Inherits the **principal-grade standard**. Use the Figma MCP if a file is connected to build/refine the marks. Work in chat; nothing posts until approved.
+Design WORK — runs after `/brand-strategy` + `/moodboard`, before `/brand-identity`, before `/create-report`. Inherits the **principal-grade standard**. Use the Figma MCP if a file is connected to build/refine the marks. Work in chat; nothing posts until approved.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ The brand strategy (personality, archetype, positioning) + the art direction (`/
 
 ## Output
 
-A self-contained **HTML document** (inline CSS/SVG) rendering the concept(s), the chosen mark with construction notes, the lockup system, and the test results (b/w, small, reversed). If built in Figma, note the file/frames. Show it in chat, iterate, then feed into `/brand-identity`, or hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS/SVG) rendering the concept(s), the chosen mark with construction notes, the lockup system, and the test results (b/w, small, reversed). If built in Figma, note the file/frames. Show it in chat, iterate, then feed into `/brand-identity`, or hand to `/create-report`.

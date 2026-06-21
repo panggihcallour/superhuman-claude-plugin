@@ -1,6 +1,6 @@
 ---
 name: prototype
-description: Use to define an interactive prototype of a flow — screen-to-screen navigation, transitions, interaction and gesture details, and state changes — so the experience can be felt, not just seen. Acts as a Senior Principal UX Designer. Runs AFTER /wireframe or /visual-design and BEFORE /post-comment. Trigger on "prototype", "make it interactive", "clickable", "interaction design", "prototipe", "flow interaktif", "transitions".
+description: Use to define an interactive prototype of a flow — screen-to-screen navigation, transitions, interaction and gesture details, and state changes — so the experience can be felt, not just seen. Acts as a Senior Principal UX Designer. Runs AFTER /wireframe or /visual-design and BEFORE /create-report. Trigger on "prototype", "make it interactive", "clickable", "interaction design", "prototipe", "flow interaktif", "transitions".
 metadata:
   short-description: Interactive prototype of a flow — navigation, interactions, transitions, states
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Make the design something you can move through. **Act as a Senior Principal UX Designer.** A prototype tests the *experience over time* — flow, feedback, transitions, and how state changes feel — which static screens can't show.
 
-Design WORK — runs **between `/wireframe` / `/visual-design`** and **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/wireframe` / `/visual-design`** and **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ The brief + the screens from `/wireframe` or `/visual-design`, and the key user 
 
 ## Output
 
-A clickable **HTML prototype** of the flow (self-contained, inline CSS/JS) where feasible, **plus** a short interaction + motion spec (screen graph, triggers/responses, transitions). Show it in chat, iterate, then hand to `/post-comment`.
+A clickable **HTML prototype** of the flow (self-contained, inline CSS/JS) where feasible, **plus** a short interaction + motion spec (screen graph, triggers/responses, transitions). Show it in chat, iterate, then hand to `/create-report`.

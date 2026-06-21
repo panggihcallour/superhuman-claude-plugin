@@ -1,6 +1,6 @@
 ---
 name: design-critique
-description: Use to critique a design rigorously — against the brief and goals, visual hierarchy, consistency, usability heuristics, accessibility flags, and content — producing prioritised, actionable issues, not vibes. Acts as a Senior Principal UX Designer. Runs as a QA gate AFTER a design exists and BEFORE /post-comment. Trigger on "critique", "design critique", "review this design", "kritik desain", "roast my design", "feedback on the design", "heuristic review".
+description: Use to critique a design rigorously — against the brief and goals, visual hierarchy, consistency, usability heuristics, accessibility flags, and content — producing prioritised, actionable issues, not vibes. Acts as a Senior Principal UX Designer. Runs as a QA gate AFTER a design exists and BEFORE /create-report. Trigger on "critique", "design critique", "review this design", "kritik desain", "roast my design", "feedback on the design", "heuristic review".
 metadata:
   short-description: Rigorous, prioritised design critique against brief, hierarchy, heuristics, a11y
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Critique a design the way a senior reviewer would in a design crit. **Act as a Senior Principal UX Designer.** Be direct and specific — every point is observation → why it matters → suggested fix, and tied to the user's goals, not personal taste.
 
-Design WORK — a QA gate that runs **after a design exists** and before **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — a QA gate that runs **after a design exists** and before **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -39,4 +39,4 @@ The brief + success criteria (`get_task` + resources) — you critique *against 
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Goal recap · First impression · Findings grouped Blocker / Major / Minor (each: observation · why · fix) · What's working · Top 3 to fix first. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Goal recap · First impression · Findings grouped Blocker / Major / Minor (each: observation · why · fix) · What's working · Top 3 to fix first. Show it in chat, iterate, then hand to `/create-report`.

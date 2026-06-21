@@ -1,6 +1,6 @@
 ---
 name: competitive-audit
-description: Use to research and tear down how competitors / reference products solve a problem — patterns, flows, strengths, weaknesses, and applicable takeaways — via web search. Acts as a Senior Principal UX Designer. Runs early, AFTER /start-task and usually BEFORE /explore-solutions, and BEFORE /post-comment. Trigger on "competitive audit", "competitor analysis", "teardown", "riset kompetitor", "bandingin produk lain", "benchmark UX".
+description: Use to research and tear down how competitors / reference products solve a problem — patterns, flows, strengths, weaknesses, and applicable takeaways — via web search. Acts as a Senior Principal UX Designer. Runs early, AFTER /start-task and usually BEFORE /explore-solutions, and BEFORE /create-report. Trigger on "competitive audit", "competitor analysis", "teardown", "riset kompetitor", "bandingin produk lain", "benchmark UX".
 metadata:
   short-description: Web-research competitor / reference teardown with applicable takeaways
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Tear down how other products solve the problem in the brief, and extract what we should borrow, avoid, and beat. **Act as a Senior Principal UX Designer** — judge patterns, don't just catalogue them.
 
-Design WORK — runs **between `/start-task`** and **`/post-comment`**, early in the process so its findings can feed `/explore-solutions`, `/information-architecture`, and `/wireframe`. Work in chat; nothing posts until the human approves.
+Design WORK — runs **between `/start-task`** and **`/create-report`**, early in the process so its findings can feed `/explore-solutions`, `/information-architecture`, and `/wireframe`. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -34,4 +34,4 @@ Design WORK — runs **between `/start-task`** and **`/post-comment`**, early in
 
 ## Output
 
-A self-contained **HTML document** (inline CSS, clean, grayscale): Objective · Reference set (with links) · Per-reference teardown (works / fails) · Pattern findings (conventions vs divergence) · Takeaways (adopt / avoid / opportunity) · Open questions. Show it in chat, iterate, then hand to `/post-comment`.
+A self-contained **HTML document** (inline CSS, clean, grayscale): Objective · Reference set (with links) · Per-reference teardown (works / fails) · Pattern findings (conventions vs divergence) · Takeaways (adopt / avoid / opportunity) · Open questions. Show it in chat, iterate, then hand to `/create-report`.

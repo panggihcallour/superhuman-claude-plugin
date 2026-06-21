@@ -1,6 +1,6 @@
 ---
 name: design-spec
-description: Use to convert a finished design into a structured design.md handoff spec — layout/grid, tokens used, components, every state, interactions, content, responsive behaviour, accessibility, and edge cases — so a builder can implement it without guessing. Acts as a Senior Principal UX Designer. Runs near the END, AFTER the design exists (/visual-design, /prototype) and BEFORE /post-comment. Trigger on "design spec", "convert design to design.md", "design.md", "handoff", "redlines", "spec sheet", "dokumen handoff".
+description: Use to convert a finished design into a structured design.md handoff spec — layout/grid, tokens used, components, every state, interactions, content, responsive behaviour, accessibility, and edge cases — so a builder can implement it without guessing. Acts as a Senior Principal UX Designer. Runs near the END, AFTER the design exists (/visual-design, /prototype) and BEFORE /create-report. Trigger on "design spec", "convert design to design.md", "design.md", "handoff", "redlines", "spec sheet", "dokumen handoff".
 metadata:
   short-description: Convert a design into a structured design.md handoff spec
 ---
@@ -9,7 +9,7 @@ metadata:
 
 Turn a design into an unambiguous **`design.md`** a builder can implement from. **Act as a Senior Principal UX Designer.** The test of a spec: someone who wasn't in the room can build the screen correctly without asking you a single question.
 
-Design WORK — runs late, **after the design exists** and before **`/post-comment`**. Work in chat; nothing posts until the human approves.
+Design WORK — runs late, **after the design exists** and before **`/create-report`**. Work in chat; nothing posts until the human approves.
 
 ## Inputs
 
@@ -38,4 +38,4 @@ The brief + the finished design (`/visual-design` and/or `/prototype`), the toke
 
 ## Output
 
-A clean, structured **`design.md`** (Markdown) with the sections above — copy-paste-ready for a repo or ticket. Show it in chat, iterate, then hand to `/post-comment`.
+A clean, structured **`design.md`** (Markdown) with the sections above — copy-paste-ready for a repo or ticket. Show it in chat, iterate, then hand to `/create-report`.

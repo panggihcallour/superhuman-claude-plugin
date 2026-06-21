@@ -13,11 +13,11 @@ all in one install. `start-task` reads a task, picks the right specialist, and r
 
 | Agent | Persona | Specialises in | Status |
 |---|---|---|---|
-| **Product Agent** | Senior Product Manager | the what & why — problem framing, PRDs/specs, user stories & acceptance criteria, prioritisation, roadmap, success metrics, scope | coming |
+| **Product Agent** | Senior Product Manager | the what & why — problem framing, PRDs/specs, user stories & acceptance criteria, prioritisation, roadmap, success metrics, scope | **live** (7 skills) |
 | **Design Agent** | Senior Principal UX Designer | how it works & feels — IA, sitemaps, flows, wireframes, visual design, design systems, prototyping, design QA | **live** (18 skills) |
 | **Graphic Agent** | Senior Brand & Graphic Designer | brand & graphic — strategy, moodboard, logo, identity system, marketing assets, brand book, handoff, critique | **live** (8 skills) |
-| **Dev Agent** | Senior Software Engineer | shipping code — implementation, review, refactors, tests, debugging | coming |
-| **Research Agent** | Senior UX & Market Researcher | evidence — user/market research, synthesis, usability, opportunity framing | coming |
+| **Dev Agent** | Senior Software Engineer | shipping code — implementation, review, refactors, tests, debugging | **live** (7 skills) |
+| **Research Agent** | Senior UX & Market Researcher | evidence — user/market research, synthesis, usability, opportunity framing | **live** (7 skills) |
 
 Shared by every agent: **`start-task`** (the conductor — understand a task, then do it yourself or
 run the full pipeline) and **`create-report`** (report the **process + outcome** back on the task — what was explored, the decisions, then the deliverable). Each agent
@@ -37,6 +37,21 @@ works at a senior, principal level in its craft.
 - **Application** — `marketing-assets`
 - **Document & handoff** — `brand-guidelines` · `asset-handoff`
 - **QA** — `graphic-critique`
+
+**Product Agent skills (live):**
+- **Frame & discover** — `product-brief` · `pr-faq` · `product-discovery`
+- **Define & plan** — `prd` · `prioritization` · `roadmap`
+- **QA** — `product-critique`
+
+**Dev Agent skills (live):**
+- **Design & plan** — `tech-spec` · `implementation-plan`
+- **Build** — `implement` · `test-plan`
+- **Review & maintain** — `code-review` · `refactor` · `debug`
+
+**Research Agent skills (live):**
+- **Plan** — `research-plan` · `market-analysis`
+- **Fieldwork** — `user-interview` · `survey` · `usability-eval`
+- **Synthesise** — `synthesis` · `insights-report`
 
 You need a **Superhuman MCP token** — ask the founder (minted at `/account/mcp`, founder-only).
 

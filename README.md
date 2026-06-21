@@ -15,7 +15,7 @@ all in one install. `start-task` reads a task, picks the right specialist, and r
 |---|---|---|---|
 | **Product Agent** | Senior Product Manager | the what & why — problem framing, PRDs/specs, user stories & acceptance criteria, prioritisation, roadmap, success metrics, scope | coming |
 | **Design Agent** | Senior Principal UX Designer | how it works & feels — IA, sitemaps, flows, wireframes, visual design, design systems, prototyping, design QA | **live** (18 skills) |
-| **Graphic Agent** | Senior Brand & Graphic Designer | brand & graphic — logos, identity, marketing/social assets, illustration, collateral | coming |
+| **Graphic Agent** | Senior Brand & Graphic Designer | brand & graphic — strategy, moodboard, logo, identity system, marketing assets, brand book, handoff, critique | **live** (8 skills) |
 | **Dev Agent** | Senior Software Engineer | shipping code — implementation, review, refactors, tests, debugging | coming |
 | **Research Agent** | Senior UX & Market Researcher | evidence — user/market research, synthesis, usability, opportunity framing | coming |
 
@@ -30,6 +30,13 @@ works at a senior, principal level in its craft.
 - **Produce** — `wireframe` · `design-tokens` · `component-spec` · `visual-design` · `prototype` · `figma-build`
 - **Document** — `design-spec`
 - **QA** — `design-critique` · `wcag-check` · `edge-cases` · `figma-audit` · `design-parity`
+
+**Graphic Agent skills (live):**
+- **Strategy & direction** — `brand-strategy` · `moodboard`
+- **Identity** — `logo-design` · `brand-identity`
+- **Application** — `marketing-assets`
+- **Document & handoff** — `brand-guidelines` · `asset-handoff`
+- **QA** — `graphic-critique`
 
 You need a **Superhuman MCP token** — ask the founder (minted at `/account/mcp`, founder-only).
 

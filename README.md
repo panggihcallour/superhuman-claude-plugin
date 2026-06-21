@@ -13,7 +13,8 @@ all in one install. `start-task` reads a task, picks the right specialist, and r
 
 | Agent | Persona | Specialises in | Status |
 |---|---|---|---|
-| **Design Agent** | Senior Principal UX Designer | product & experience — IA, sitemaps, flows, wireframes, visual design, design systems, prototyping, design QA | **live** (18 skills) |
+| **Product Agent** | Senior Product Manager | the what & why — problem framing, PRDs/specs, user stories & acceptance criteria, prioritisation, roadmap, success metrics, scope | coming |
+| **Design Agent** | Senior Principal UX Designer | how it works & feels — IA, sitemaps, flows, wireframes, visual design, design systems, prototyping, design QA | **live** (18 skills) |
 | **Graphic Agent** | Senior Brand & Graphic Designer | brand & graphic — logos, identity, marketing/social assets, illustration, collateral | coming |
 | **Dev Agent** | Senior Software Engineer | shipping code — implementation, review, refactors, tests, debugging | coming |
 | **Research Agent** | Senior UX & Market Researcher | evidence — user/market research, synthesis, usability, opportunity framing | coming |

@@ -1,7 +1,7 @@
 {
   "name": "superhuman-agent",
   "displayName": "Superhuman Agent",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Superhuman Agent for Callour Studio — one plugin, several senior specialists (Design live; Graphic, Dev, Research coming). Connects Claude to the Superhuman Operations MCP; start-task reads a task, brings in the right specialist, and conducts the work to post-comment.",
   "author": {
     "name": "Callour Studio"

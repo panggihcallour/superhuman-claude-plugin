@@ -13,7 +13,7 @@ Design WORK — runs **between `/start-task`** and **`/create-report`**, before 
 
 ## Inputs
 
-The active task's brief (`get_task` + `list_agent_queue` / `read_project_resource`) — the problem, users, success criteria, and constraints. If a `/competitive-audit` was done, use its takeaways as raw material. If the problem is fuzzy, tighten it first.
+The active task's brief (`get_task` + `read_task_attachment` / `read_project_resource`) — the problem, users, success criteria, and constraints. If a `/competitive-audit` was done, use its takeaways as raw material. If the problem is fuzzy, tighten it first.
 
 ## Method (in order)
 

@@ -13,7 +13,7 @@ This is design WORK — it runs **between `/start-task`** and **`/create-report`
 
 ## Inputs
 
-Read the brief and any content inventory already produced: `get_task`, plus `list_agent_queue` / `read_project_resource` for the brief and references. If the page/feature scope is unclear, **ask before structuring**.
+Read the brief and any content inventory already produced: `get_task`, plus `read_task_attachment` / `read_project_resource` for the brief and references. If the page/feature scope is unclear, **ask before structuring**.
 
 ## Method (in order)
 

@@ -13,7 +13,7 @@ Design WORK — runs **between `/start-task` and `/create-report`**, ideally **a
 
 ## Inputs
 
-Read the brief and any IA already produced (`get_task`; recent artifacts via `list_agent_queue`). Identify the user flows the wireframes must support. If the flows aren't defined, sketch a quick flow first (or ask). Pull brand/reference context only for screen content, not styling — wireframes stay grayscale.
+Read the brief and any IA already produced (`get_task`; earlier deliverables in its `files` via `read_task_attachment`). Identify the user flows the wireframes must support. If the flows aren't defined, sketch a quick flow first (or ask). Pull brand/reference context only for screen content, not styling — wireframes stay grayscale.
 
 ## Method (in order)
 

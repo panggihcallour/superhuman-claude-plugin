@@ -15,7 +15,7 @@ This is design WORK — it runs **between `/start-task`** (which opened the task
 
 ## Inputs
 
-Read the active task's brief and context first: `get_task`, plus `list_agent_queue` / `read_project_resource` for the brief, brand guidelines, and any references. If scope, primary users, or goals are unclear, **ask before structuring** — IA built on a vague brief is wasted work.
+Read the active task's brief and context first: `get_task`, plus `read_task_attachment` / `read_project_resource` for the brief, brand guidelines, and any references. If scope, primary users, or goals are unclear, **ask before structuring** — IA built on a vague brief is wasted work.
 
 ## Method (in order)
 

@@ -13,7 +13,7 @@ Design WORK — runs early (after `/start-task`, before `/explore-solutions`) fo
 
 ## Inputs
 
-The brief (`get_task` + `list_agent_queue` / `read_project_resource`) — the business goal, users, and constraints. If a `/competitive-audit` exists, use its takeaways. If the ambition/scope is unclear, tighten it before strategising.
+The brief (`get_task` + `read_task_attachment` / `read_project_resource`) — the business goal, users, and constraints. If a `/competitive-audit` exists, use its takeaways. If the ambition/scope is unclear, tighten it before strategising.
 
 ## Method (in order)
 

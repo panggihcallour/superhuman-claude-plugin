@@ -103,7 +103,7 @@ launchctl setenv SUPERHUMAN_MCP_TOKEN shmcp_xxxx
 ## Use
 
 - `/start-task` — paste a task link; it reads the task, moves it to in-progress, and kicks off, then either hands you the wheel or runs the full process.
-- `/create-report` — when done, it reports the **process + outcome** (what it explored, the decisions, then the deliverable) and posts it to the task (after you approve).
+- `/create-report` — when done, it reports the **process + outcome** (what it explored, the decisions, then the deliverable), posts it to the task under your name, then adds a progress update that tags the PM (after you approve).
 
 Verify it's connected: paste a task link and ask Claude to `get_task <link>` — it should return
 the task's title and status.

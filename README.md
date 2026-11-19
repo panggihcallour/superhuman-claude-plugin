@@ -5,8 +5,8 @@ workload, documents) and brings a roster of **senior specialist agents** to work
 all in one install. `start-task` reads a task, picks the right specialist, and runs the work.
 
 > **Operational surface only.** This connects to the Operations MCP — tasks, projects, workload,
-> documents. It exposes **no finance, sales, or people data / money** (the token is
-> audience-scoped to Operations). The MCP endpoint requires a valid token; without one it
+> documents. It exposes **no finance, sales, or people data / money**. You sign in with your own
+> Ops account (OAuth) and get the tools your role has in the app; without signing in it
 > returns nothing.
 
 ## The agents
@@ -53,7 +53,7 @@ works at a senior, principal level in its craft.
 - **Fieldwork** — `user-interview` · `survey` · `usability-eval`
 - **Synthesise** — `synthesis` · `insights-report`
 
-You need a **Superhuman MCP token** — ask the founder (minted at `/account/mcp`, founder-only).
+You need an active Ops account (founder, PM, designer or developer). No token: Claude asks you to sign in.
 
 ## Install
 
@@ -66,39 +66,26 @@ In Claude (Desktop or Code):
 /plugin install superhuman-agent@callour
 ```
 
-Then set your token (below) and restart Claude. Updates later: `/plugin marketplace update callour`.
+Then restart Claude and sign in (below). Updates later: `/plugin marketplace update callour`.
 
 ### B) Local upload (Claude Desktop)
 
 1. Download **[`superhuman-agent.zip`](./superhuman-agent.zip)** from this repo.
 2. In Claude Desktop: **Directory → Plugins → Upload local plugin** → drop the zip → **Upload**.
-3. Set your token (below) and restart Claude.
+3. Restart Claude and sign in (below).
 
-## Set your token
+## Sign in
 
-The plugin authenticates with `Authorization: Bearer ${SUPERHUMAN_MCP_TOKEN}`, so that env var
-must be visible to Claude. **Get the token from the founder first** (they mint it at `/account/mcp`).
+The plugin connects to the Operations MCP with your own Ops account (OAuth), so there is no token
+to copy or keep secret.
 
-**Claude Code (terminal).** Open your shell profile in a text editor:
+- **Claude Code:** run `/mcp`, pick `superhuman_operations` and choose **Authenticate**. The browser
+  opens: sign in to Ops if asked, then **Allow**.
+- **Claude Desktop:** the first time the connector is used, Claude opens the same sign-in. If it
+  doesn't, open **Settings → Connectors**, find `superhuman_operations` and click **Connect**.
 
-```
-open -e ~/.zshrc
-```
-
-TextEdit opens — add this line at the bottom (replace `shmcp_xxxx` with your token), then save (Cmd+S):
-
-```
-export SUPERHUMAN_MCP_TOKEN=shmcp_xxxx
-```
-
-Open a new terminal and run `claude` again.
-
-**Claude Desktop (GUI app).** It doesn't read your shell profile, so set it for the login session
-via Terminal, then restart Claude:
-
-```
-launchctl setenv SUPERHUMAN_MCP_TOKEN shmcp_xxxx
-```
+> **Upgrading from 0.11 or older?** Old `shmcp_` tokens no longer work. Update the plugin, and
+> remove `SUPERHUMAN_MCP_TOKEN` from `~/.zshrc` (and `launchctl unsetenv SUPERHUMAN_MCP_TOKEN`).
 
 ## Use
 
@@ -120,7 +107,6 @@ For the **Codex** version of this plugin, see
 - **Display name "Superhuman Agent"** shows in the `/plugin` picker on Claude v2.1.143+; older
   versions fall back to the id `superhuman-agent`.
 - **Updates are NOT automatic.** Run `/plugin marketplace update callour` to pull a new version.
-- **Token on Claude Desktop:** a GUI app doesn't inherit your shell env — use
-  `launchctl setenv SUPERHUMAN_MCP_TOKEN <token>` then restart Claude.
-- **MCP not connecting?** Restart Claude after setting the token; MCP servers load at startup.
+- **MCP not connecting?** Sign in again (Claude Code: `/mcp` → `superhuman_operations` →
+  Authenticate). MCP servers load at startup, so restart Claude after updating the plugin.
   Use an interactive chat.
